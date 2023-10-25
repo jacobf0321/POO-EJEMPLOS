@@ -1,2 +1,7 @@
-# POO-EJEMPLOS
-EJEMPLOS DE POO EN DIFERENTES LENGUAJES
+# Ejemplos de programacion Orientada a aObjetos
+Se realizan algunos ejemplos de POO enlas siguientes lenguajes
+-java
+-python
+-ruby
+-javascript
+-c++
