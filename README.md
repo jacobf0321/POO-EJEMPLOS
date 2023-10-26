@@ -5,4 +5,3 @@ Se realizan algunos ejemplos de POO en los siguientes lenguajes
 - Ruby
 - Javascript
 - C++
-- C
