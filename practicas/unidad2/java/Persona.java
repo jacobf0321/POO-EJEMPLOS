@@ -1,33 +1,14 @@
 class Persona {
-    public static void main(String[] args) {
-        Persona persona = new Persona();
 
-        persona.edad = 25;
-        persona.nombre = "Rogelio";
-        persona.vive = true;
+    private String nombre;
+    private int edad;
+    private boolean vive;
 
-        System.out.println("La edad de la persona es " + persona.edad);
-        System.out.println("¿La persona vive? " + persona.vive);
-
-        persona.saludar();
-
-        System.out.println("La edad de la persona es " + persona.edad);
-        System.out.println("¿La persona vive? " + persona.vive);
-
-        persona.incrementarEdad();
-
-        System.out.println("La edad de la persona es " + persona.edad);
-        System.out.println("¿La persona vive? " + persona.vive);
-
-        persona.morir();
-
-        System.out.println("La edad de la persona es " + persona.edad);
-        System.out.println("¿La persona vive? " + persona.vive);
+    Persona (String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.vive = true;
     }
-
-    String nombre;
-    int edad;
-    boolean vive;
 
     void saludar() {
         System.out.println("Hola, mi nombre es " + nombre);
@@ -40,5 +21,15 @@ class Persona {
     void morir() {
         vive = false;
     }
+    int miEdad() {
+        return this.edad;
+    }
 
+    boolean vive() {
+        return this.vive;
+    }
+
+    String miNombre() {
+        return this.nombre;
+    }
 }
