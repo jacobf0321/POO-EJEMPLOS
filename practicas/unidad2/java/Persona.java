@@ -13,28 +13,27 @@ class Persona {
         vive = false;
     }
 }
-public class Main (){
-    public static void Main(String[] args)(
+
+    public static void main(String[] args){
         Persona persona = new Persona();
 
         persona.edad = 25;
         persona.nombre = "Roge";
         persona.vive = true;
 
-        System.out.printLn("La edad es " + persona.edad);
-        System.out.printLn("Esta vivo " + persona.vive);
+        System.out.print("La edad es " + persona.edad);
+        System.out.print("Esta vivo " + persona.vive);
         persona.saludar();
 
-        System.out.printLn("La edad es " + persona.edad);
-        System.out.printLn("Esta vivo " + persona.vive);
+        System.out.print("La edad es " + persona.edad);
+        System.out.print("Esta vivo " + persona.vive);
         persona.incrementarEdad();
 
-        System.out.printLn("La edad es " + persona.edad);
-        System.out.printLn("Esta vivo " + persona.vive);
+        System.out.print("La edad es " + persona.edad);
+        System.out.print("Esta vivo " + persona.vive);
         persona.morir();
 
-        System.out.printLn("La edad es " + persona.edad);
-        System.out.printLn("Esta vivo " + persona.vive);
+        System.out.print("La edad es " + persona.edad);
+        System.out.print("Esta vivo " + persona.vive);
 
-    )
-}
+    }
